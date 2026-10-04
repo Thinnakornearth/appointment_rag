@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: appointment-agent
+Version: 0.1.0
+Summary: Agentic appointment assistant with RAG on Databricks (synthetic clinic data)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
