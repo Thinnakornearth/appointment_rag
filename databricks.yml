@@ -1,0 +1,15 @@
+bundle:
+  name: appointment_agent
+
+variables:
+  catalog:
+    description: Unity Catalog catalog that holds this project's schemas
+    default: workspace
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
