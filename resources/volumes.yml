@@ -1,0 +1,7 @@
+resources:
+  volumes:
+    raw_docs:
+      catalog_name: ${var.catalog}
+      schema_name: ${resources.schemas.agent.name}
+      name: raw_docs
+      comment: Raw knowledge base documents (synthetic)
