@@ -3,4 +3,4 @@ resources:
     agent:
       catalog_name: ${var.catalog}
       name: fh_agent
-      comment: Tables, indexes and models for the Freedom Hearing agent (synthetic data)
+      comment: Tables, indexes and models for the Appointment Hearing agent (synthetic data)
